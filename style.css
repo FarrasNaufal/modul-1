@@ -3,6 +3,9 @@
     margin: 0;
     color: black;
 }
+a {
+    text-decoration: none;
+}
 img {
     width: 100%;
 }
@@ -12,13 +15,13 @@ img {
 .header {
     display: flex;
     background-color: rgb(117, 187, 228);
-    display: flex;
     padding: 15px;
 }
 .logo {
     font-size: 24px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0 20px;
+    color: black;
 }
 .nav {
     display: flex;
@@ -35,7 +38,6 @@ img {
 }
 .nav ul li a {
     display: flex;
-    text-decoration: none;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -56,27 +58,46 @@ img {
     color: white;
     font-size: 4em;
 }
+.explore {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
 .explore-title ul{
     display: flex;
 }
 .explore-title h1 {
     padding: 10px;  
-
 }
+   
 .explore-item {
-    column-count: 4;
+    column-count: 5;
     padding: 10px;
     box-sizing: border-box;
 }
-.explore-img {
 
-}
+    
 .explore-img img {
     border-radius: 7px;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+}
+.gallery-title {
+    padding: 20px;
+}
+.gallery-item {
+    column-count: 5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.gallery-item img {
+    border-radius: 10px;
 }
 .footer {
     background-color: rgb(117, 187, 228);
-    padding: 10px;
+    padding: 20px;
+    bottom: 0;
 }
 .footer p {
     text-align: center;
