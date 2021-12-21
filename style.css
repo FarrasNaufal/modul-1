@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+img {
+    width: 100%;
+}
+.container {
+    padding-bottom: 30px;
+}
+.header {
+    display: flex;
+    background-color: rgb(117, 187, 228);
+    display: flex;
+    padding: 15px;
+}
+.logo {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+}
+.nav {
+    display: flex;
+}
+.nav ul  {
+    display: flex;
+    
+}
+.nav ul li {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.nav ul li a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid rgb(147, 224, 255);
+    color: rgb(147, 224, 255);
+}
+.content {  
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+}
+.welcome {
+    padding-top: 200px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 4em;
+}
+.explore-title ul{
+    display: flex;
+}
+.explore-title h1 {
+    padding: 10px;  
+
+}
+.explore-item {
+    column-count: 4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.explore-img {
+
+}
+.explore-img img {
+    border-radius: 7px;
+}
+.footer {
+    background-color: rgb(117, 187, 228);
+    padding: 10px;
+}
+.footer p {
+    text-align: center;
+}
